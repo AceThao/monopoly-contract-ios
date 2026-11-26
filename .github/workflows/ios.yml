@@ -17,5 +17,4 @@ jobs:
             -scheme MonopolyContract \
             -configuration Debug \
             -destination 'generic/platform=iOS Simulator' \
-            CODE_SIGNING_ALLOWED=NO \
             build

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1000004"
+               BlueprintIdentifier = "F1A10000000000000000000A"
                BuildableName = "MonopolyContract.app"
                BlueprintName = "MonopolyContract"
                ReferencedContainer = "container:MonopolyContract.xcodeproj">
@@ -42,7 +42,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1000004"
+            BlueprintIdentifier = "F1A10000000000000000000A"
             BuildableName = "MonopolyContract.app"
             BlueprintName = "MonopolyContract"
             ReferencedContainer = "container:MonopolyContract.xcodeproj">
@@ -59,7 +59,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1000004"
+            BlueprintIdentifier = "F1A10000000000000000000A"
             BuildableName = "MonopolyContract.app"
             BlueprintName = "MonopolyContract"
             ReferencedContainer = "container:MonopolyContract.xcodeproj">
