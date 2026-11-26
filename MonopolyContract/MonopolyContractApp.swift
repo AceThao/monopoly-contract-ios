@@ -974,8 +974,8 @@ final class GameStore {
         return db.messages.filter { message in
             guard message.tableId == me.tableId else { return false }
             if let playerId {
-                let pair = [message.senderId, message.recipientId]
-                return message.recipientId != nil && pair.contains(me.id) && pair.contains(playerId)
+            let pair = [message.senderId, message.recipientId]
+            return message.recipientId != nil && pair.contains(where: { $0 == me.id }) && pair.contains(where: { $0 == playerId })
             }
             return message.recipientId == nil
         }.sorted { $0.createdAt < $1.createdAt }
